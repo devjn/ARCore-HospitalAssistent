@@ -272,6 +272,7 @@ GameObject:
   - component: {fileID: 144737207}
   - component: {fileID: 144737206}
   - component: {fileID: 144737205}
+  - component: {fileID: 144737209}
   m_Layer: 0
   m_Name: Kitten
   m_TagString: Player
@@ -346,6 +347,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144737209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 144737204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de1f51926717d84d8e0d633b11c16c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &186517188
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,50 +462,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 423143359}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &216417154
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 216417156}
-  - component: {fileID: 216417155}
-  m_Layer: 0
-  m_Name: CatPlacer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &216417155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 216417154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e0e34a3e28184041a5f559d2b68b1d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_firstPersonCamera: {fileID: 1696718615}
-  m_trackedPlanePrefab: {fileID: 1654175882956584, guid: 3c646ccdf5baa4c7b81a96a308886839,
-    type: 2}
-  kittenPrefab: {fileID: 120014, guid: 085471e8195e34016bb1c8c0889e2b70, type: 2}
---- !u!4 &216417156
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 216417154}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &285636445
 GameObject:
@@ -2130,11 +2098,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
   m_IsPrefabParent: 0
---- !u!20 &1696718615 stripped
-Camera:
-  m_PrefabParentObject: {fileID: 20155940112608238, guid: c10877f7cd5764de18d46d7b777d1faa,
-    type: 2}
-  m_PrefabInternal: {fileID: 1696718614}
 --- !u!1 &1752155357
 GameObject:
   m_ObjectHideFlags: 0
