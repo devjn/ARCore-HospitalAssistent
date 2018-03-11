@@ -43,7 +43,7 @@ public class TextToSpeechLib : MonoBehaviour {
     }
 
     public void Convert(string Text) {
-		this._textToSpeech.Voice = VoiceType.en_US_Allison;
+        this._textToSpeech.Voice = VoiceType.en_US_Michael; //en_US_Allison;
 		if(!this._textToSpeech.ToSpeech(OnSynthesize, OnFail, Text, true))
 			Log.Debug("ExampleTextToSpeech.ToSpeech()", "Failed to synthesize!");
 		
